@@ -40,7 +40,7 @@ existen variables locales y globales. las globales viven fuera de una funcion y 
 */
 function setup() {
   createCanvas(windowWidth, windowHeight);
-background(255, 204, 0);
+  background(255, 204, 0);
 }
 
 function draw() {
@@ -52,6 +52,6 @@ function muchasVeces(){
   {
   noStroke();
   fill(random(255), random(255), random(255));
-   ellipse(random(width), random(height), 10, 10);
+   ellipse(random(width), random(height), 8, 8);
   }
 }

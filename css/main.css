@@ -1,0 +1,269 @@
+.text-white {
+  color: #fff; }
+
+.nav-black {
+  background-color: #000 !important; }
+
+.font-family-un {
+  font-family: "Oleo Script", cursive; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.centered {
+  padding-top: 20%; }
+
+.boddy-initial {
+  overflow-y: hidden;
+  background-color: black; }
+
+.avatar {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  background-image: url(../img/paualarcon.jpg);
+  width: 100px;
+  height: 100px; }
+
+.giv-avatar {
+  padding-left: 7%;
+  padding-bottom: 5%; }
+
+.directive {
+  font-size: 12px; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.main-tit {
+  font-size: 11px; }
+  .main-tit:hover {
+    color: #eaeaed; }
+
+.font-icon {
+  font-size: 40px; }
+  .font-icon:hover {
+    color: #eaeaed; }
+
+.div-icon-main:hover {
+  color: #eaeaed; }
+
+#banner h1 {
+  font-family: "Oleo Script", cursive; }
+
+#banner-row {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff; }
+
+.img-banner {
+  z-index: -3; }
+
+.margin-name {
+  margin-top: 15%; }
+
+.col-s12-banner {
+  padding-left: 0% !important;
+  padding-right: 0% !important; }
+
+.brand-logo {
+  margin-left: 2%; }
+
+td {
+  color: #000; }
+
+.margin-left-90 {
+  margin-left: 90%; }
+
+#skills {
+  background-image: url(../img/giphy.gif); }
+  @media (max-width: 780px) {
+    #skills {
+      background-position: center; } }
+
+#skill-baner {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20%;
+  margin-bottom: 0 !important;
+  z-index: -1; }
+
+.white-row {
+  background-color: #fff;
+  background-size: cover; }
+
+.margin-top-27 {
+  margin-top: -27px; }
+
+.padding-skill {
+  padding: 5% 0%; }
+
+.pad2-table {
+  margin-left: 0%; }
+
+.margin-left90 {
+  margin-left: 90%; }
+
+#more-soft {
+  margin-top: 3.6%; }
+
+#show-less-tec, #show-less-soft {
+  margin-top: 10%; }
+
+#row-skill {
+  background-color: #fff; }
+
+#col-tab {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.tab-a {
+  color: rgba(0, 0, 0, 0.7) !important; }
+  .tab-a:hover {
+    background-color: transparent;
+    color: #000 !important; }
+
+.tab-a.active {
+  background-color: rgba(239, 248, 235, 0.2);
+  color: #000 !important;
+  border-bottom: #000 2px solid; }
+
+.tabs {
+  margin-bottom: 2%; }
+  .tabs .indicator {
+    background-color: #000; }
+
+#test1, #test2 {
+  padding-left: 7%; }
+
+#skills-btn {
+  color: #000;
+  cursor: pointer; }
+
+.img-cpc {
+  width: 100%;
+  height: auto; }
+
+.pad-row-portafolio {
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important; }
+
+.pad2-top {
+  padding-top: 3%; }
+
+.card-container {
+  cursor: pointer;
+  height: 30vh;
+  perspective: 600;
+  position: relative;
+  width: 40vw;
+  margin-bottom: 30%; }
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%; }
+
+.card:hover {
+  background: #eaeaed;
+  transform: rotateY(180deg); }
+
+.card .side {
+  background: transparent;
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%; }
+
+.card .back {
+  background: #eaeaed;
+  color: #000;
+  text-align: center;
+  transform: rotateY(180deg);
+  height: auto; }
+  .card .back p {
+    padding-top: 1%;
+    padding-bottom: 1%; }
+
+.btn-large {
+  background-color: #000 !important;
+  color: white;
+  font-size: 10px; }
+
+.s12 .card-container {
+  padding-bottom: 2%; }
+
+.fa {
+  color: #fff;
+  padding: 1%;
+  font-size: 14px; }
+
+#contact-row {
+  background-color: #4B4848;
+  padding: 0.3% 0% 0.1% 1%; }
+
+footer {
+  background-color: #4B4848;
+  padding: 0.5% 0% 0.2% 1%; }
+
+.margin-top1 {
+  margin-top: 1%; }
+
+.row-footer {
+  margin-bottom: 0% !important; }
+
+.tooltip {
+  position: relative;
+  display: inline-block; }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s; }
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent; }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1; }
+
+@media (max-width: 780px) {
+  .margin-top-media {
+    margin-top: 3%; } }
+
+.mapi-hide {
+  display: none; }
+  @media (max-width: 781px) {
+    .mapi-hide {
+      display: inline; } }
+
+/*# sourceMappingURL=main.css.map */
